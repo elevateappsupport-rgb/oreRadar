@@ -20,7 +20,7 @@ jobs:
       - name: make gradlew executable
         run: chmod +x ./gradlew
 
-          - name: Build
+      - name: Build
         run: ./gradlew build --refresh-dependencies
 
       - name: capture build artifacts
