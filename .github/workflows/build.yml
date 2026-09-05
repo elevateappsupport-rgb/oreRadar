@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-24.04
     defaults:
       run:
-        working-directory: fabric-template
+        working-directory: oreradar-fabric-project/fabric-template
     steps:
       - name: checkout repository
         uses: actions/checkout@v6
@@ -27,4 +27,4 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: Artifacts
-          path: fabric-template/build/libs/
+          path: oreradar-fabric-project/fabric-template/build/libs/
