@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "oreradar",
+	"version": "${version}",
+	"name": "OreRadar",
+	"description": "Zeigt dir eine lila Linie zum naechsten ausgewaehlten Block (Erze, Ancient Debris, Gravel, ...). Client-Side, fuer Singleplayer.",
+	"authors": [
+		"Du :)"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"icon": "assets/oreradar/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"net.oreradar.OreRadarClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
